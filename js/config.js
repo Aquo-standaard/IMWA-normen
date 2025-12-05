@@ -2,7 +2,7 @@ let respecConfig = {
   //useLogo: true,
   //useLabel: true,
   // title is verplicht! Neem hier de titel van het document op ----------------------
-  title: "Informatiemodel Water (IMWA) Basis",
+  title: "Informatiemodel Water (IMWA) Normen",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   specStatus:   "WV",               // Werkversie
   //labelColor: "#ffcc00",
@@ -22,13 +22,13 @@ let respecConfig = {
   //specType: "BP",                 // Best Practice
 
   //-- pubDomain is verplicht! (komt in de URL) -------------------------------------
-  pubDomain: "IMWA-Basis",
+  pubDomain: "IMWA-Normen",
   //-- license: voor de geldende gebruiksvoorwaarden. Default is cc-by.
   license: "cc-by-nd",            // bronvermelding, geen afgeleide werken (default)
   //license: "cc0",                 // Public Domain Dedication
   //license: "cc-by",                 // Attribution, met bronvermelding
   //-- shortName is verplicht! (komt in de URL: kies logische afkorting)--------------
-  shortName: "IMWA-Basis",
+  shortName: "IMWA-Normen",
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
   publishDate: "2024-06-13",
@@ -40,11 +40,11 @@ let respecConfig = {
   previousMaturity: "wv",
   
   //neem hier de URL van de github repository op waar het respec document in staat
-  github: "https://github.com/Aquo-standaard/IMWA-basis",
+  github: "https://github.com/Aquo-standaard/IMWA-normen",
   //-- Repositorynaam/issues op GitHub ------------------------------------------------
-  issueBase: "https://github.com/Aquo-standaard/IMWA-basis/issues",
+  issueBase: "https://github.com/Aquo-standaard/IMWA-normen/issues",
   //-- edDraftURI: de URI van de werkversie van het document
-  edDraftURI: "https://github.com/Aquo-standaard/IMWA-basis",
+  edDraftURI: "https://github.com/Aquo-standaard/IMWA-normen",
   //-- license: voor de geldende gebruiksvoorwaarden
 
   //-- Optionele parameters:
