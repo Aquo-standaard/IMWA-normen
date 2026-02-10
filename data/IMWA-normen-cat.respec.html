@@ -1,4 +1,4 @@
-<!DOCTYPE HTML><section id="cat" class="normative"><h2>Gegevensdefinitie</h2><p><b>Deze tekst is normatief.</b><!--CONCEPTUAL-IMWA2024Normen-22.1-1-20251225-20260210-152854 imvertor 4.5.0--></p><section id="global_package_Normen"><h3>Domein   Normen</h3><section><h4>Objecttypen   </h4>
+<!DOCTYPE HTML><section id="cat" class="normative"><h2>Gegevensdefinitie</h2><p><b>Deze tekst is normatief.</b><!--CONCEPTUAL-IMWA2024Normen-22.1-1-20251225-20260210-153401 imvertor Nightly-build.0--></p><section id="global_package_Normen"><h3>Domein   Normen</h3><section><h4>Objecttypen   </h4>
             <section id="global_class_Normen_Normering"><h5>   Normering</h5>
                <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Normering</td></tr><tr><th scope="row">Begrip</th><td>
                         Id-9a487910-ec88-4030-bfa6-f5f6be67aefc,Id-39077005-a2f7-45e1-a08b-2d3add090bf2
@@ -23,13 +23,13 @@
                         </td><td>
                            <p>specificeert de naam van een normering</p>
                         </td><td>
-                           Character­String
+                           <a class="link" href="#global_class_MIM11PrimitieveDatatypen_CharacterString">Character­String</a>
                         </td><td>0 .. 1</td></tr><tr><td>
                            opmerking
                         </td><td>
                            <p>geeft een opmerking over de normering</p>
                         </td><td>
-                           Character­String
+                           <a class="link" href="#global_class_MIM11PrimitieveDatatypen_CharacterString">Character­String</a>
                         </td><td>0 .. 1</td></tr></tbody></table>
                
                <h6>Overzicht relaties  </h6>
@@ -106,7 +106,7 @@
                            <p>geeft een link in de vorm van een 
 naar het document waarin de normstelling staat beschreven</p>
                         </td><td>
-                           URI
+                           <a class="link" href="#global_class_MIM11PrimitieveDatatypen_URI">URI</a>
                         </td><td>0 .. 1</td></tr></tbody></table>
                
                <h6>Overzicht relaties  </h6>
@@ -192,7 +192,7 @@ naar het document waarin de normstelling staat beschreven</p>
                         </td><td>
                            <p>specificeert het type norm dat van toepassing is</p>
                         </td><td>
-                           <a class="link" href="#global_class_AquoDomeintabellen_NormType">Norm­Type</a>
+                           Norm­Type
                         </td><td>1</td></tr></tbody></table>
                
                <h6>Overzicht relaties  </h6>
@@ -230,7 +230,7 @@ naar het document waarin de normstelling staat beschreven</p>
                         </td><td>
                            <p>specificeert welk limietsymbool van toepassing is bij een normgrens en de daarbij behorende waarde</p>
                         </td><td>
-                           <a class="link" href="#global_class_AquoDomeintabellen_Limietsymbool">Limietsymbool</a>
+                           Limietsymbool
                         </td><td>0 .. 1</td></tr><tr><td>
                            normwaarde
                         </td><td></td><td>
@@ -240,7 +240,7 @@ naar het document waarin de normstelling staat beschreven</p>
                         </td><td>
                            <p>specificeert het type normgrens dat van toepassing is</p>
                         </td><td>
-                           <a class="link" href="#global_class_AquoDomeintabellen_NormgrensType">Normgrens­Type</a>
+                           Normgrens­Type
                         </td><td>1</td></tr></tbody></table>
                
                <h6>Overzicht relaties  </h6>
@@ -343,7 +343,7 @@ Ook een KRW-Doelenverzameling kan beschouwd worden als een normpakket</p>
                         </td><td>
                            <p>specificeert welk normpakket van toepassing is</p>
                         </td><td>
-                           <a class="link" href="#global_class_AquoDomeintabellen_Normpakket">Normpakket</a>
+                           Normpakket
                         </td><td>1</td></tr><tr><td>
                            opmerking
                         </td><td>
@@ -415,7 +415,7 @@ Ook een KRW-Doelenverzameling kan beschouwd worden als een normpakket</p>
                         </td><td>1</td></tr><tr><td>
                            norm­Kader
                         </td><td></td><td>
-                           <a class="link" href="#global_class_AquoDomeintabellen_Normkader">Normkader</a>
+                           Normkader
                         </td><td>1</td></tr><tr><td>
                            omschrijving
                         </td><td>
@@ -454,7 +454,7 @@ Ook een KRW-Doelenverzameling kan beschouwd worden als een normpakket</p>
                         </td><td>
                            <p>specificeert ten opzichte van welke referentievlak de hoogte of diepte van een object wordt bepaald</p>
                         </td><td>
-                           <a class="link" href="#global_class_AquoDomeintabellen_VerticaleReferentie">Verticale­Referentie</a>
+                           Verticale­Referentie
                         </td><td>1</td></tr><tr><td>
                            verticale­Afstand
                         </td><td>
@@ -464,46 +464,46 @@ Ook een KRW-Doelenverzameling kan beschouwd worden als een normpakket</p>
                         </td><td>1</td></tr></tbody></table>
                
             </section>
-         </section></section><section id="global_package_AquoDomeintabellen"><h3>Domein   Aquo-domeintabellen</h3><section><h4>Referentielijsten   </h4>
-            <section id="global_class_AquoDomeintabellen_Limietsymbool"><h5>Referentielijst   Limietsymbool</h5>
-               <table style="width: 100%;" class="overview OVERVIEW-REFERENCELIST"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Limietsymbool</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td>
-                        
-                              <p>Aquo-domeintabel met daarin de verschillende limietsymbolen</p>
-                           
-                     </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Toelichting</th><td>
-                        
-                              <p>Deze domeintabel wordt gebruikt binnen OMM-W binnen de gegevensgroep Meetresultaat­Detectiegrens.</p>
-                           
-                     </td></tr><tr><th scope="row">Data locatie</th><td>
-                        <a href="https://www.aquo.nl/index.php/Domeintabel aan te maken" target="_blank">https://www.aquo.nl/index.php/Domeintabel aan te maken</a>
+         </section></section><section id="global_package_AquoDomeintabellen"><h3>Domein   Aquo-domeintabellen</h3><section><h4>Codelijsten   </h4>
+            <table style="width: 100%;" class="overview OVERVIEW-CODELIST"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Limietsymbool</th><td>
+                     <p>Aquo-domeintabel met daarin de verschillende limietsymbolen</p>
+                  </td></tr><tr><th scope="row">Verticale­Referentie</th><td>
+                     <p>Aquo-domeintabel met daarin verschillende referenties in het verticale vlak die extra informatie geven over het resultaat</p>
+                  </td></tr><tr><th scope="row">Norm­Type</th><td></td></tr><tr><th scope="row">Normpakket</th><td></td></tr><tr><th scope="row">Normkader</th><td></td></tr><tr><th scope="row">Normeringsmethode</th><td></td></tr><tr><th scope="row">Normgrens­Type</th><td></td></tr></tbody></table>
+         </section></section><section id="global_package_MIM11PrimitieveDatatypen"><h3>Domein   MIM11 Primitieve datatypen</h3><section><h4>Externe constructies   </h4>
+            <section id="global_class_MIM11PrimitieveDatatypen_Year"><h5>Externe constructie   Year</h5>
+               <table style="width: 100%;" class="overview OVERVIEW-INTERFACE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Year</td></tr></tbody></table>
+            </section>
+            <section id="global_class_MIM11PrimitieveDatatypen_Date"><h5>Externe constructie   Date</h5>
+               <table style="width: 100%;" class="overview OVERVIEW-INTERFACE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Date</td></tr></tbody></table>
+            </section>
+            <section id="global_class_MIM11PrimitieveDatatypen_Month"><h5>Externe constructie   Month</h5>
+               <table style="width: 100%;" class="overview OVERVIEW-INTERFACE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Month</td></tr><tr><th scope="row">Alias</th><td>
+                        <alias>Vlak</alias>
                      </td></tr></tbody></table>
             </section>
-            <section id="global_class_AquoDomeintabellen_VerticaleReferentie"><h5>Referentielijst   Verticale­Referentie</h5>
-               <table style="width: 100%;" class="overview OVERVIEW-REFERENCELIST"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Verticale­Referentie</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td>
-                        
-                              <p>Aquo-domeintabel met daarin verschillende referenties in het verticale vlak die extra informatie geven over het resultaat</p>
-                           
-                     </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Toelichting</th><td>
-                        
-                              <p>Deze domeintabel wordt gebruikt binnen OMM-W onder het objecttype Meetresultaat, Berekend­Resultaat, Locatie­Resultaat en in de gegevensgroep Metadata­Waardereeks­Resultaat. Deze domeintabel is op dit moment de groep Referentie­Vlak in de domeintabel Hoedanigheid.</p>
-                           
-                     </td></tr><tr><th scope="row">Data locatie</th><td>
-                        <a href="https://www.aquo.nl/index.php/Id-7169dd0a-813b-4cf1-86ab-9bbc52b113a4" target="_blank">https://www.aquo.nl/index.php/Id-7169dd0a-813b-4cf1-86ab-9bbc52b113a4</a>
-                     </td></tr></tbody></table>
+            <section id="global_class_MIM11PrimitieveDatatypen_Boolean"><h5>Externe constructie   Boolean</h5>
+               <table style="width: 100%;" class="overview OVERVIEW-INTERFACE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Boolean</td></tr></tbody></table>
             </section>
-            <section id="global_class_AquoDomeintabellen_NormType"><h5>Referentielijst   Norm­Type</h5>
-               <table style="width: 100%;" class="overview OVERVIEW-REFERENCELIST"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Norm­Type</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Data locatie</th><td> </td></tr></tbody></table>
+            <section id="global_class_MIM11PrimitieveDatatypen_CharacterString"><h5>Externe constructie   Character­String</h5>
+               <table style="width: 100%;" class="overview OVERVIEW-INTERFACE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Character­String</td></tr></tbody></table>
             </section>
-            <section id="global_class_AquoDomeintabellen_Normpakket"><h5>Referentielijst   Normpakket</h5>
-               <table style="width: 100%;" class="overview OVERVIEW-REFERENCELIST"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Normpakket</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Data locatie</th><td> </td></tr></tbody></table>
+            <section id="global_class_MIM11PrimitieveDatatypen_URI"><h5>Externe constructie   URI</h5>
+               <table style="width: 100%;" class="overview OVERVIEW-INTERFACE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>URI</td></tr></tbody></table>
             </section>
-            <section id="global_class_AquoDomeintabellen_Normkader"><h5>Referentielijst   Normkader</h5>
-               <table style="width: 100%;" class="overview OVERVIEW-REFERENCELIST"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Normkader</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Data locatie</th><td> </td></tr></tbody></table>
+            <section id="global_class_MIM11PrimitieveDatatypen_Real"><h5>Externe constructie   Real</h5>
+               <table style="width: 100%;" class="overview OVERVIEW-INTERFACE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Real</td></tr></tbody></table>
             </section>
-            <section id="global_class_AquoDomeintabellen_Normeringsmethode"><h5>Referentielijst   Normeringsmethode</h5>
-               <table style="width: 100%;" class="overview OVERVIEW-REFERENCELIST"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Normeringsmethode</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Data locatie</th><td> </td></tr></tbody></table>
+            <section id="global_class_MIM11PrimitieveDatatypen_Day"><h5>Externe constructie   Day</h5>
+               <table style="width: 100%;" class="overview OVERVIEW-INTERFACE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Day</td></tr></tbody></table>
             </section>
-            <section id="global_class_AquoDomeintabellen_NormgrensType"><h5>Referentielijst   Normgrens­Type</h5>
-               <table style="width: 100%;" class="overview OVERVIEW-REFERENCELIST"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Normgrens­Type</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Data locatie</th><td> </td></tr></tbody></table>
+            <section id="global_class_MIM11PrimitieveDatatypen_DateTime"><h5>Externe constructie   Date­Time</h5>
+               <table style="width: 100%;" class="overview OVERVIEW-INTERFACE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Date­Time</td></tr></tbody></table>
+            </section>
+            <section id="global_class_MIM11PrimitieveDatatypen_Integer"><h5>Externe constructie   Integer</h5>
+               <table style="width: 100%;" class="overview OVERVIEW-INTERFACE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Integer</td></tr></tbody></table>
+            </section>
+            <section id="global_class_MIM11PrimitieveDatatypen_Decimal"><h5>Externe constructie   Decimal</h5>
+               <table style="width: 100%;" class="overview OVERVIEW-INTERFACE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Decimal</td></tr></tbody></table>
             </section>
          </section></section></section>
