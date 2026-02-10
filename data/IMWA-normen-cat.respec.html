@@ -1,36 +1,4 @@
-<!DOCTYPE HTML><section id="cat" class="normative"><h2>Gegevensdefinitie</h2><p><b>Deze tekst is normatief.</b><!--CONCEPTUAL-IMWA2024Normen-22.1-1-20251225-20251205-092640 imvertor Nightly-build.0--></p><section id="global_package_Normen"><h3>Domein   Normen</h3><section><h4>Objecttypen   </h4>
-            <section id="global_class_Normen_NormeringEigenschap"><h5>   Normering­Eigenschap</h5>
-               <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Normering­Eigenschap</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
-               <h6>Overzicht attributen  </h6>
-                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th scope="col">Attribuutnaam</th><th scope="col">Definitie</th><th scope="col">Attribuuttype</th><th scope="col">Kardinaliteit</th></tr><tr><td>
-                           genormeerde­Eigenschap
-                        </td><td></td><td>
-                           <a class="link" href="#global_class_AquoDomeintabellen_GeobserveerdeEigeschap">Geobserveerde­Eigeschap</a>
-                        </td><td>1</td></tr><tr><td>
-                           genormeerde­Eigenschap­Referentie
-                        </td><td></td><td>
-                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">URI</a>
-                        </td><td>1</td></tr><tr><td>
-                           normeringsonderwerp
-                        </td><td></td><td>
-                           <a class="link" href="#global_class_Normen_Normeringsonderwerp">Normeringsonderwerp</a>
-                        </td><td>1</td></tr></tbody></table>
-               
-               <h6>Overzicht relaties  </h6>
-                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th scope="col">Relatienaam met kardinaliteiten</th><th scope="col">Definitie</th></tr><tr><td>
-                           
-                              <a class="link" href="#global_class_Normen_Normering">Normering</a>
-                           
-                           [ 0 .. * ]
-                           
-                              heeft: eigenschap
-                           
-                           Normering­Eigenschap
-                           [ 1 ]
-                        </td><td></td></tr></tbody></table>
-                  
-               
-            </section>
+<!DOCTYPE HTML><section id="cat" class="normative"><h2>Gegevensdefinitie</h2><p><b>Deze tekst is normatief.</b><!--CONCEPTUAL-IMWA2024Normen-22.1-1-20251225-20260210-093846 imvertor 4.5.0--></p><section id="global_package_Normen"><h3>Domein   Normen</h3><section><h4>Objecttypen   </h4>
             <section id="global_class_Normen_Normering"><h5>   Normering</h5>
                <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Normering</td></tr><tr><th scope="row">Begrip</th><td>
                         Id-9a487910-ec88-4030-bfa6-f5f6be67aefc,Id-39077005-a2f7-45e1-a08b-2d3add090bf2
@@ -45,91 +13,51 @@
                      </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
                <h6>Overzicht attributen  </h6>
                   <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th scope="col">Attribuutnaam</th><th scope="col">Definitie</th><th scope="col">Attribuuttype</th><th scope="col">Kardinaliteit</th></tr><tr><td>
-                           begin­Geldigheid
-                        </td><td>
-                           <p>De begindatum van een periode waarin de norm van kracht is.</p>
-                        </td><td>
-                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Date­Time</a>
-                        </td><td>1</td></tr><tr><td>
-                           einde­Geldigheid
-                        </td><td></td><td>
-                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Date­Time</a>
-                        </td><td>0 .. 1</td></tr><tr><td>
                            identificatie
-                        </td><td></td><td>
+                        </td><td>
+                           <p>specificeert de de unieke identificatie van een normering</p>
+                        </td><td>
                            <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Character­String</a>
-                        </td><td>1</td></tr><tr><td>
+                        </td><td>0 .. 1</td></tr><tr><td>
                            naam
                         </td><td>
-                           <p>To­Do</p>
+                           <p>specificeert de naam van een normering</p>
                         </td><td>
-                           CHARACTERSTRING
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Character­String</a>
                         </td><td>0 .. 1</td></tr><tr><td>
                            opmerking
                         </td><td>
-                           <p>To­Do</p>
+                           <p>geeft een opmerking over de normering</p>
                         </td><td>
-                           CHARACTERSTRING
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Character­String</a>
                         </td><td>0 .. 1</td></tr></tbody></table>
                
                <h6>Overzicht relaties  </h6>
                   <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th scope="col">Relatienaam met kardinaliteiten</th><th scope="col">Definitie</th></tr><tr><td>
                            Normering
-                           [ 0 .. * ]
-                           
-                              normeert
-                           
-                           
-                              IMWA_Geo­Object
-                           
-                           [ 0 .. * ]
-                        </td><td></td></tr><tr><td>
-                           Normering
-                           [ 0 .. * ]
-                           
-                              heeft: eigenschap
-                           
-                           
-                              <a class="link" href="#global_class_Normen_NormeringEigenschap">Normering­Eigenschap</a>
-                           
                            [ 1 ]
+                           
+                              is gebaseerd op
+                           
+                           
+                              <a class="link" href="#global_class_Normen_Normstelling">Normstelling</a>
+                           
+                           [ 0 .. 1 ]
                         </td><td></td></tr><tr><td>
                            Normering
                            [ 1 ]
                            
-                              heeft gerelateerde
+                              resulteert in
                            
                            
-                              <a class="link" href="#global_class_Normen_Normering">Normering</a>
+                              <a class="link" href="#global_class_Normen_Normpakket">Normpakket</a>
                            
-                           [ 0 .. * ]
-                        </td><td>
-                           <p>To­Do</p>
-                        </td></tr><tr><td>
-                           Normering
-                           [ 1 ]
-                           
-                              wordt bepaald volgens
-                           
-                           
-                              <a class="link" href="#global_class_Normen_Normeringsmethode">Normeringsmethode</a>
-                           
-                           [ 1 ]
-                        </td><td></td></tr><tr><td>
-                           Normering
-                           [ 1 ]
-                           
-                              leidt tot
-                           
-                           
-                              <a class="link" href="#global_class_Normen_Norm">Norm</a>
-                           
-                           [ 1 ]
+                           [ 1 .. * ]
                         </td><td></td></tr><tr><td>
                            Normering
                            [ 0 .. * ]
                            
-                              normeert
+                              stelt eis aan
                            
                            
                               Waterbeheer­Functie
@@ -139,7 +67,7 @@
                            Normering
                            [ 1 .. * ]
                            
-                              vastgesteld door
+                              uitgevoerd door
                            
                            
                               <a class="link" href="#global_class_Normen_NormerendeInstantie">Normerende­Instantie</a>
@@ -149,8 +77,8 @@
                   
                
             </section>
-            <section id="global_class_Normen_Normeringsmethode"><h5>   Normeringsmethode</h5>
-               <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Normeringsmethode</td></tr><tr><th scope="row">Begrip</th><td>
+            <section id="global_class_Normen_Normstelling"><h5>   Normstelling</h5>
+               <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Normstelling</td></tr><tr><th scope="row">Begrip</th><td>
                         -
                      </td></tr><tr><th scope="row">Herkomst</th><td>
                         
@@ -167,14 +95,19 @@
                      </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
                <h6>Overzicht attributen  </h6>
                   <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th scope="col">Attribuutnaam</th><th scope="col">Definitie</th><th scope="col">Attribuuttype</th><th scope="col">Kardinaliteit</th></tr><tr><td>
-                           normering­Methode­Referentie
-                        </td><td></td><td>
+                           naam­Normstelling­Rapport
+                        </td><td>
+                           <p>specificeert de naam van et document waarin de normstelling is beschreven</p>
+                        </td><td>
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Character­String</a>
+                        </td><td>0 .. 1</td></tr><tr><td>
+                           normstelling­Referentie
+                        </td><td>
+                           <p>geeft een link in de vorm van een 
+naar het document waarin de normstelling staat beschreven</p>
+                        </td><td>
                            <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">URI</a>
-                        </td><td>1</td></tr><tr><td>
-                           normeringsmetthode
-                        </td><td></td><td>
-                           <a class="link" href="#global_class_AquoDomeintabellen_Normeringsmethode">Normeringsmethode</a>
-                        </td><td>1</td></tr></tbody></table>
+                        </td><td>0 .. 1</td></tr></tbody></table>
                
                <h6>Overzicht relaties  </h6>
                   <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th scope="col">Relatienaam met kardinaliteiten</th><th scope="col">Definitie</th></tr><tr><td>
@@ -183,10 +116,10 @@
                            
                            [ 1 ]
                            
-                              wordt bepaald volgens
+                              is gebaseerd op
                            
-                           Normeringsmethode
-                           [ 1 ]
+                           Normstelling
+                           [ 0 .. 1 ]
                         </td><td></td></tr></tbody></table>
                   
                
@@ -195,14 +128,24 @@
                <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Normerende­Instantie</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
                <h6>Overzicht attributen  </h6>
                   <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th scope="col">Attribuutnaam</th><th scope="col">Definitie</th><th scope="col">Attribuuttype</th><th scope="col">Kardinaliteit</th></tr><tr><td>
+                           identificatie
+                        </td><td>
+                           <p>specificeert de unieke identificatie van de normerende instatie</p>
+                        </td><td>
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Character­String</a>
+                        </td><td>1</td></tr><tr><td>
                            naam
-                        </td><td></td><td>
+                        </td><td>
+                           <p>specificeert de naam van de normerende instantie</p>
+                        </td><td>
                            <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Character­String</a>
                         </td><td>1</td></tr><tr><td>
                            referentie
-                        </td><td></td><td>
+                        </td><td>
+                           <p>geeft een link naar een bronvermelding van de normerende instantie in de vorm van een URI</p>
+                        </td><td>
                            <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">URI</a>
-                        </td><td>1</td></tr></tbody></table>
+                        </td><td>0 .. 1</td></tr></tbody></table>
                
                <h6>Overzicht relaties  </h6>
                   <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th scope="col">Relatienaam met kardinaliteiten</th><th scope="col">Definitie</th></tr><tr><td>
@@ -211,7 +154,7 @@
                            
                            [ 1 .. * ]
                            
-                              vastgesteld door
+                              uitgevoerd door
                            
                            Normerende­Instantie
                            [ 0 .. * ]
@@ -227,25 +170,33 @@
                      </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Ja</td></tr></tbody></table>
                <h6>Overzicht attributen  </h6>
                   <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th scope="col">Attribuutnaam</th><th scope="col">Definitie</th><th scope="col">Attribuuttype</th><th scope="col">Kardinaliteit</th></tr><tr><td>
+                           begin­Geldigheid
+                        </td><td>
+                           <p>specificeert de begindatum waarop een norm van kracht is geworden met een datum en een tijd</p>
+                        </td><td>
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Date­Time</a>
+                        </td><td>1</td></tr><tr><td>
+                           eind­Geldigheid
+                        </td><td>
+                           <p>specificeert de einddatum waarop een norm niet meer geldig is met een datum en een tijd</p>
+                        </td><td>
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Date­Time</a>
+                        </td><td>0 .. 1</td></tr><tr><td>
+                           identificatie
+                        </td><td>
+                           <p>specificeert de unieke identificatie van een norm</p>
+                        </td><td>
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Character­String</a>
+                        </td><td>1</td></tr><tr><td>
                            type­Norm
-                        </td><td></td><td>
+                        </td><td>
+                           <p>specificeert het type norm dat van toepassing is</p>
+                        </td><td>
                            <a class="link" href="#global_class_AquoDomeintabellen_NormType">Norm­Type</a>
                         </td><td>1</td></tr></tbody></table>
                
                <h6>Overzicht relaties  </h6>
                   <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th scope="col">Relatienaam met kardinaliteiten</th><th scope="col">Definitie</th></tr><tr><td>
-                           Norm
-                           [ 1 .. * ]
-                           
-                              Onderdeel van: onderdeel­Van
-                           
-                           
-                              <a class="link" href="#global_class_Normen_Normpakket">Normpakket</a>
-                           
-                           [ 1 ]
-                        </td><td>
-                           <p>To­Do</p>
-                        </td></tr><tr><td>
                            Norm
                            [ 1 ]
                            
@@ -257,15 +208,17 @@
                            [ 1 .. * ]
                         </td><td></td></tr><tr><td>
                            
-                              <a class="link" href="#global_class_Normen_Normering">Normering</a>
+                              <a class="link" href="#global_class_Normen_Normpakket">Normpakket</a>
                            
-                           [ 1 ]
+                           [ 1 .. * ]
                            
-                              leidt tot
+                              bevat: onderdeel­Van
                            
                            Norm
                            [ 1 ]
-                        </td><td></td></tr></tbody></table>
+                        </td><td>
+                           <p>To­Do</p>
+                        </td></tr></tbody></table>
                   
                
             </section>
@@ -273,17 +226,35 @@
                <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Normgrens</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
                <h6>Overzicht attributen  </h6>
                   <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th scope="col">Attribuutnaam</th><th scope="col">Definitie</th><th scope="col">Attribuuttype</th><th scope="col">Kardinaliteit</th></tr><tr><td>
-                           naam
-                        </td><td></td><td>
-                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Character­String</a>
-                        </td><td>1</td></tr><tr><td>
-                           waarde
+                           limietsymbool
+                        </td><td>
+                           <p>specificeert welk limietsymbool van toepassing is bij een normgrens en de daarbij behorende waarde</p>
+                        </td><td>
+                           <a class="link" href="#global_class_AquoDomeintabellen_Limietsymbool">Limietsymbool</a>
+                        </td><td>0 .. 1</td></tr><tr><td>
+                           normwaarde
                         </td><td></td><td>
                            Measure
+                        </td><td>1</td></tr><tr><td>
+                           type­Normgrens
+                        </td><td>
+                           <p>specificeert het type normgrens dat van toepassing is</p>
+                        </td><td>
+                           <a class="link" href="#global_class_AquoDomeintabellen_NormgrensType">Normgrens­Type</a>
                         </td><td>1</td></tr></tbody></table>
                
                <h6>Overzicht relaties  </h6>
                   <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th scope="col">Relatienaam met kardinaliteiten</th><th scope="col">Definitie</th></tr><tr><td>
+                           Normgrens
+                           [ * ]
+                           
+                              is grens van
+                           
+                           
+                              <a class="link" href="#global_class_Normen_Normklasse">Normklasse</a>
+                           
+                           [ 0 .. * ]
+                        </td><td></td></tr><tr><td>
                            
                               <a class="link" href="#global_class_Normen_Norm">Norm</a>
                            
@@ -297,59 +268,11 @@
                   
                
             </section>
-            <section id="global_class_Normen_NormwaardeKwantitatief"><h5>   Normwaarde­Kwantitatief</h5>
-               <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Normwaarde­Kwantitatief</td></tr><tr><th scope="row">Begrip</th><td>
-                        -
-                     </td></tr><tr><th scope="row">Herkomst</th><td>
-                        
-                              <a href="https://aquo.nl/index.php/Id-dcdb8a6c-9269-4245-92c7-674d405ed51c" target="_blank">https://aquo.nl/index.php/Id-dcdb8a6c-9269-4245-92c7-674d405ed51c</a>
-                           
-                     </td></tr><tr><th scope="row">Definitie</th><td>
-                        
-                              <p>Het bereik van normklasse. 
-Een enkelvoudige normwaarde geeft de grenswaarde tussen twee normklasses, bijvoorbeeld tussen 'Voldoet niet' en 'Voldoet'. 
-Ook referentiewaardes zijn normwaardes met een bepaalde normclassificatie. </p>
-                           
-                     </td></tr><tr><th scope="row">Herkomst definitie</th><td>
-                        -
-                     </td></tr><tr><th scope="row">Datum opname</th><td>
-                        -
-                     </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+            <section id="global_class_Normen_Normklasse"><h5>   Normklasse</h5>
+               <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Normklasse</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
                <h6>Overzicht attributen  </h6>
                   <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th scope="col">Attribuutnaam</th><th scope="col">Definitie</th><th scope="col">Attribuuttype</th><th scope="col">Kardinaliteit</th></tr><tr><td>
-                           begin­Waarde
-                        </td><td>
-                           <p>De ondergrenswaarde van het normbereik waarvoor een bepaalde normclassificatie geldt.<br clear="none">
-De beginwaarde is bijvoorbeeld '&gt;=0.5' voor een classificatie 'Goed'</p>
-                        </td><td>
-                           Measure
-                        </td><td>1</td></tr><tr><td>
-                           eind­Waarde
-                        </td><td>
-                           <p>De waarde van de bovengrens van het normbereik waarvoor een bepaalde normclassificatie geldt.<br clear="none">
-De eindwaarde is bijvoorbeeld '</p>
-                        </td><td>
-                           Measure
-                        </td><td>0 .. 1</td></tr></tbody></table>
-               
-               <h6>Overzicht relaties  </h6>
-                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th scope="col">Relatienaam met kardinaliteiten</th><th scope="col">Definitie</th></tr><tr><td>
-                           Normwaarde­Kwantitatief
-                           is specialisatie van
-                           
-                              <a class="link" href="#global_class_Normen_Norm">Norm</a>
-                           
-                        </td><td>
-                           <p>Algemene regel m.b.t. een parameter met een bepaalde mate van bindendheid, al dan niet mede in kwantitatieve termen uitgedrukt</p>
-                        </td></tr></tbody></table>
-                  
-               
-            </section>
-            <section id="global_class_Normen_NormwaardeClassificatie"><h5>   Normwaarde­Classificatie</h5>
-               <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Normwaarde­Classificatie</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
-               <h6>Overzicht attributen  </h6>
-                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th scope="col">Attribuutnaam</th><th scope="col">Definitie</th><th scope="col">Attribuuttype</th><th scope="col">Kardinaliteit</th></tr><tr><td>
-                           norm­Classificatie
+                           normklasse
                         </td><td>
                            <p>Aanduiding van de klasse van het normbereik.
 Bijvoorbeeld:</p>
@@ -366,14 +289,16 @@ Bijvoorbeeld:</p>
                
                <h6>Overzicht relaties  </h6>
                   <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th scope="col">Relatienaam met kardinaliteiten</th><th scope="col">Definitie</th></tr><tr><td>
-                           Normwaarde­Classificatie
-                           is specialisatie van
                            
-                              <a class="link" href="#global_class_Normen_Norm">Norm</a>
+                              <a class="link" href="#global_class_Normen_Normgrens">Normgrens</a>
                            
-                        </td><td>
-                           <p>Algemene regel m.b.t. een parameter met een bepaalde mate van bindendheid, al dan niet mede in kwantitatieve termen uitgedrukt</p>
-                        </td></tr></tbody></table>
+                           [ * ]
+                           
+                              is grens van
+                           
+                           Normklasse
+                           [ 0 .. * ]
+                        </td><td></td></tr></tbody></table>
                   
                
             </section>
@@ -396,15 +321,33 @@ Ook een KRW-Doelenverzameling kan beschouwd worden als een normpakket</p>
                      </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
                <h6>Overzicht attributen  </h6>
                   <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th scope="col">Attribuutnaam</th><th scope="col">Definitie</th><th scope="col">Attribuuttype</th><th scope="col">Kardinaliteit</th></tr><tr><td>
-                           norm­Groep
+                           begin­Geldigheid
                         </td><td>
-                           <p>Domeintabel: Normgroep</p>
+                           <p>specificeert de begindatum van de periode waarin het normpakket geldig is met een datum en een tijd</p>
                         </td><td>
-                           CHARACTERSTRING
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Date­Time</a>
+                        </td><td>1</td></tr><tr><td>
+                           eind­Geldigheid
+                        </td><td>
+                           <p>specificeert de einddatum van de periode waarin het normpakket geldig is met een datum en een tijd</p>
+                        </td><td>
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Date­Time</a>
+                        </td><td>0 .. 1</td></tr><tr><td>
+                           identificatie
+                        </td><td>
+                           <p>specificeert de unieke identificatie van een normpakket</p>
+                        </td><td>
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Character­String</a>
+                        </td><td>1</td></tr><tr><td>
+                           normpakket
+                        </td><td>
+                           <p>specificeert welk normpakket van toepassing is</p>
+                        </td><td>
+                           <a class="link" href="#global_class_AquoDomeintabellen_Normpakket">Normpakket</a>
                         </td><td>1</td></tr><tr><td>
                            opmerking
                         </td><td>
-                           <p>To­Do</p>
+                           <p>geeft een opmerking over een normpakket</p>
                         </td><td>
                            CHARACTERSTRING
                         </td><td>0 .. 1</td></tr></tbody></table>
@@ -417,29 +360,39 @@ Ook een KRW-Doelenverzameling kan beschouwd worden als een normpakket</p>
                               opgenomen in: opgenomen­In
                            
                            
-                              <a class="link" href="#global_class_Normen_NormKader">Norm­Kader</a>
+                              <a class="link" href="#global_class_Normen_Normkader">Normkader</a>
                            
                            [ 1 .. * ]
                         </td><td>
                            <p>To­Do</p>
                         </td></tr><tr><td>
+                           Normpakket
+                           [ 1 .. * ]
+                           
+                              bevat: onderdeel­Van
+                           
                            
                               <a class="link" href="#global_class_Normen_Norm">Norm</a>
                            
-                           [ 1 .. * ]
-                           
-                              Onderdeel van: onderdeel­Van
-                           
-                           Normpakket
                            [ 1 ]
                         </td><td>
                            <p>To­Do</p>
-                        </td></tr></tbody></table>
+                        </td></tr><tr><td>
+                           
+                              <a class="link" href="#global_class_Normen_Normering">Normering</a>
+                           
+                           [ 1 ]
+                           
+                              resulteert in
+                           
+                           Normpakket
+                           [ 1 .. * ]
+                        </td><td></td></tr></tbody></table>
                   
                
             </section>
-            <section id="global_class_Normen_NormKader"><h5>   Norm­Kader</h5>
-               <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Norm­Kader</td></tr><tr><th scope="row">Begrip</th><td>
+            <section id="global_class_Normen_Normkader"><h5>   Normkader</h5>
+               <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Normkader</td></tr><tr><th scope="row">Begrip</th><td>
                         -
                      </td></tr><tr><th scope="row">Herkomst</th><td>
                         
@@ -456,6 +409,14 @@ Ook een KRW-Doelenverzameling kan beschouwd worden als een normpakket</p>
                      </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
                <h6>Overzicht attributen  </h6>
                   <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th scope="col">Attribuutnaam</th><th scope="col">Definitie</th><th scope="col">Attribuuttype</th><th scope="col">Kardinaliteit</th></tr><tr><td>
+                           identificatie
+                        </td><td></td><td>
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Character­String</a>
+                        </td><td>1</td></tr><tr><td>
+                           norm­Kader
+                        </td><td></td><td>
+                           <a class="link" href="#global_class_AquoDomeintabellen_Normkader">Normkader</a>
+                        </td><td>1</td></tr><tr><td>
                            omschrijving
                         </td><td>
                            <p>To­Do</p>
@@ -465,13 +426,6 @@ Ook een KRW-Doelenverzameling kan beschouwd worden als een normpakket</p>
                            referentie
                         </td><td></td><td>
                            <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">URI</a>
-                        </td><td>1</td></tr><tr><td>
-                           wet­Of­Regelgeving
-                        </td><td>
-                           <p>Aanduiding van een wet of andere regelgeving. Dit zou een verwijzing naar wetten.overheid.nl moeten zijn.</p>
-                           <p>Domeintabel: Normkader</p>
-                        </td><td>
-                           CHARACTERSTRING
                         </td><td>1</td></tr></tbody></table>
                
                <h6>Overzicht relaties  </h6>
@@ -483,72 +437,13 @@ Ook een KRW-Doelenverzameling kan beschouwd worden als een normpakket</p>
                            
                               opgenomen in: opgenomen­In
                            
-                           Norm­Kader
+                           Normkader
                            [ 1 .. * ]
                         </td><td>
                            <p>To­Do</p>
                         </td></tr></tbody></table>
                   
                
-            </section>
-         </section><section><h4>Relatieklassen   </h4>
-            <section id="global_class_Normen_NormeringRelatie"><h5>Relatieklasse   Normering­Relatie</h5>
-               <table style="width: 100%;" class="overview OVERVIEW-ASSOCIATIONCLASS"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Normering­Relatie</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td>
-                        
-                              <p>Voorstel voor definitie: De relatie van de ene norm tot een andere norm.</p>
-                           
-                     </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Relatiesoort</th><td>Normering heeft gerelateerde Normering</td></tr></tbody></table>
-               <h6>Overzicht attributen  </h6>
-                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th scope="col">Attribuutnaam</th><th scope="col">Definitie</th><th scope="col">Attribuuttype</th><th scope="col">Kardinaliteit</th></tr><tr><td>
-                           rol
-                        </td><td>
-                           <p>Voorbeeld:</p>
-                           <ul>
-                              <li>achtergrondwaarde bij een normwaarde</li>
-                           </ul>
-                           <p>Domeintabel: Norm­Relatie­Rol</p>
-                        </td><td>
-                           CHARACTERSTRING
-                        </td><td>1</td></tr></tbody></table>
-               
-            </section>
-         </section><section><h4>Keuzen   </h4>
-            <section id="global_class_Normen_Normeringsonderwerp"><h5>   Normeringsonderwerp</h5>
-               <table style="width: 100%;" class="overview OVERVIEW-UNION"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Normeringsonderwerp</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td>
-                        
-                              <p>een keuze object met daarin de verschillende onderwerpen van een observatie waaraan de waarde van een observatie eigenschap wordt bepaald</p>
-                           
-                     </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr></tbody></table>
-               <h6>Overzicht keuze elementen  </h6>
-                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th scope="col">Keuze element</th><th scope="col">Definitie</th><th scope="col">Attribuuttype</th><th scope="col">Kardinaliteit</th></tr><tr><td>
-                           biota
-                        </td><td>
-                           <p>specificeert het biotaxon waarvan een observatie eigenschap wordt bepaald</p>
-                        </td><td>
-                           <a class="link" href="#global_class_AquoDomeintabellen_Biotaxon">Biotaxon</a>
-                        </td><td>1</td></tr><tr><td>
-                           chemische­Stof
-                        </td><td>
-                           <p>specificeert de chemische stof waarvan een observatie eigenschap wordt bepaald</p>
-                        </td><td>
-                           <a class="link" href="#global_class_AquoDomeintabellen_ChemischeStof">Chemische­Stof</a>
-                        </td><td>1</td></tr><tr><td>
-                           virus
-                        </td><td>
-                           <p>specificeert het virus waarvan een observatie eigenschap wordt bepaald</p>
-                        </td><td>
-                           <a class="link" href="#global_class_AquoDomeintabellen_Virus">Virus</a>
-                        </td><td>1</td></tr><tr><td>
-                           voorwerp
-                        </td><td>
-                           <p>specificeert het voorwerp waarvan een observatie eigenschap wordt bepaald</p>
-                        </td><td>
-                           <a class="link" href="#global_class_AquoDomeintabellen_Voorwerp">Voorwerp</a>
-                        </td><td>1</td></tr></tbody></table>
-               
-               <section class="notoc"><h6>Toelichting  </h6>
-                           <p>Bij observatie­Onderwerp moet uit één van de vier attributen gekozen worden.</p>
-                        </section>
             </section>
          </section><section><h4>Gestructureerde datatypen   </h4>
             <section id="global_class_Normen_VerticaleReferentie"><h5>Gestructureerd datatype   Verticale­Referentie</h5>
@@ -559,7 +454,7 @@ Ook een KRW-Doelenverzameling kan beschouwd worden als een normpakket</p>
                         </td><td>
                            <p>specificeert ten opzichte van welke referentievlak de hoogte of diepte van een object wordt bepaald</p>
                         </td><td>
-                           <a class="link" href="#global_class_AquoDomeintabellen_Hoedanigheid">Hoedanigheid</a>
+                           <a class="link" href="#global_class_AquoDomeintabellen_VerticaleReferentie">Verticale­Referentie</a>
                         </td><td>1</td></tr><tr><td>
                            verticale­Afstand
                         </td><td>
@@ -570,61 +465,45 @@ Ook een KRW-Doelenverzameling kan beschouwd worden als een normpakket</p>
                
             </section>
          </section></section><section id="global_package_AquoDomeintabellen"><h3>Domein   Aquo-domeintabellen</h3><section><h4>Referentielijsten   </h4>
-            <section id="global_class_AquoDomeintabellen_Biotaxon"><h5>Referentielijst   Biotaxon</h5>
-               <table style="width: 100%;" class="overview OVERVIEW-REFERENCELIST"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Biotaxon</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td>
+            <section id="global_class_AquoDomeintabellen_Limietsymbool"><h5>Referentielijst   Limietsymbool</h5>
+               <table style="width: 100%;" class="overview OVERVIEW-REFERENCELIST"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Limietsymbool</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td>
                         
-                              <p>Aquo-domeintabel met daarin de verschillende Biotaxa</p>
+                              <p>Aquo-domeintabel met daarin de verschillende limietsymbolen</p>
                            
-                     </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Data locatie</th><td>
-                        <a href="https://www.aquo.nl/index.php/Id-d665b5f3-2cb2-4646-bf27-9eba5bbebe0c" target="_blank">https://www.aquo.nl/index.php/Id-d665b5f3-2cb2-4646-bf27-9eba5bbebe0c</a>
-                     </td></tr></tbody></table>
-               <section class="notoc"><h6>Toelichting  </h6>
-                           <p>Deze domeintabel wordt gebruikt binnen OMM-W onder het objecttype Obseervatie­Onderwerp.</p>
-                        </section>
-            </section>
-            <section id="global_class_AquoDomeintabellen_ChemischeStof"><h5>Referentielijst   Chemische­Stof</h5>
-               <table style="width: 100%;" class="overview OVERVIEW-REFERENCELIST"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Chemische­Stof</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td>
+                     </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Toelichting</th><td>
                         
-                              <p>Aquo-domeintabel met daarin verschillende chemische stoffen</p>
+                              <p>Deze domeintabel wordt gebruikt binnen OMM-W binnen de gegevensgroep Meetresultaat­Detectiegrens.</p>
                            
-                     </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Data locatie</th><td>
-                        <a href="https://www.aquo.nl/index.php/Id-0eafa483-2875-4c94-890d-66258a6b4d88" target="_blank">https://www.aquo.nl/index.php/Id-0eafa483-2875-4c94-890d-66258a6b4d88</a>
+                     </td></tr><tr><th scope="row">Data locatie</th><td>
+                        <a href="https://www.aquo.nl/index.php/Domeintabel aan te maken" target="_blank">https://www.aquo.nl/index.php/Domeintabel aan te maken</a>
                      </td></tr></tbody></table>
-               <section class="notoc"><h6>Toelichting  </h6>
-                           <p>Deze domeintabel wordt gebruikt binnen OMM-W onder het objecttype Observatie­Onderwerp.</p>
-                        </section>
             </section>
-            <section id="global_class_AquoDomeintabellen_GeobserveerdeEigeschap"><h5>Referentielijst   Geobserveerde­Eigeschap</h5>
-               <table style="width: 100%;" class="overview OVERVIEW-REFERENCELIST"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Geobserveerde­Eigeschap</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td>
+            <section id="global_class_AquoDomeintabellen_VerticaleReferentie"><h5>Referentielijst   Verticale­Referentie</h5>
+               <table style="width: 100%;" class="overview OVERVIEW-REFERENCELIST"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Verticale­Referentie</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td>
                         
-                              <p>specificeert welke eigenschap geobserveerd wordt </p>
+                              <p>Aquo-domeintabel met daarin verschillende referenties in het verticale vlak die extra informatie geven over het resultaat</p>
                            
-                     </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Data locatie</th><td>
-                        <a href="https://www.aquo.nl/index.php/Id-0eafa483-2875-4c94-890d-66258a6b4d88" target="_blank">https://www.aquo.nl/index.php/Id-0eafa483-2875-4c94-890d-66258a6b4d88</a>
-                     </td></tr></tbody></table>
-               <section class="notoc"><h6>Toelichting  </h6>
-                           <p>Deze domeintabel wordt gevuld met alle waarden uit de domeintabel parameter uit de groep grootheid en de groep typering.</p>
-                        </section>
-            </section>
-            <section id="global_class_AquoDomeintabellen_Hoedanigheid"><h5>Referentielijst   Hoedanigheid</h5>
-               <table style="width: 100%;" class="overview OVERVIEW-REFERENCELIST"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Hoedanigheid</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Data locatie</th><td>
+                     </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Toelichting</th><td>
+                        
+                              <p>Deze domeintabel wordt gebruikt binnen OMM-W onder het objecttype Meetresultaat, Berekend­Resultaat, Locatie­Resultaat en in de gegevensgroep Metadata­Waardereeks­Resultaat. Deze domeintabel is op dit moment de groep Referentie­Vlak in de domeintabel Hoedanigheid.</p>
+                           
+                     </td></tr><tr><th scope="row">Data locatie</th><td>
                         <a href="https://www.aquo.nl/index.php/Id-7169dd0a-813b-4cf1-86ab-9bbc52b113a4" target="_blank">https://www.aquo.nl/index.php/Id-7169dd0a-813b-4cf1-86ab-9bbc52b113a4</a>
-                     </td></tr></tbody></table>
-            </section>
-            <section id="global_class_AquoDomeintabellen_Virus"><h5>Referentielijst   Virus</h5>
-               <table style="width: 100%;" class="overview OVERVIEW-REFERENCELIST"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Virus</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Data locatie</th><td>
-                        <a href="https://www.aquo.nl/index.php/Id-0eafa483-2875-4c94-890d-66258a6b4d88" target="_blank">https://www.aquo.nl/index.php/Id-0eafa483-2875-4c94-890d-66258a6b4d88</a>
-                     </td></tr></tbody></table>
-            </section>
-            <section id="global_class_AquoDomeintabellen_Voorwerp"><h5>Referentielijst   Voorwerp</h5>
-               <table style="width: 100%;" class="overview OVERVIEW-REFERENCELIST"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Voorwerp</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Data locatie</th><td>
-                        <a href="https://www.aquo.nl/index.php/Id-0eafa483-2875-4c94-890d-66258a6b4d88" target="_blank">https://www.aquo.nl/index.php/Id-0eafa483-2875-4c94-890d-66258a6b4d88</a>
                      </td></tr></tbody></table>
             </section>
             <section id="global_class_AquoDomeintabellen_NormType"><h5>Referentielijst   Norm­Type</h5>
                <table style="width: 100%;" class="overview OVERVIEW-REFERENCELIST"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Norm­Type</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Data locatie</th><td> </td></tr></tbody></table>
             </section>
+            <section id="global_class_AquoDomeintabellen_Normpakket"><h5>Referentielijst   Normpakket</h5>
+               <table style="width: 100%;" class="overview OVERVIEW-REFERENCELIST"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Normpakket</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Data locatie</th><td> </td></tr></tbody></table>
+            </section>
+            <section id="global_class_AquoDomeintabellen_Normkader"><h5>Referentielijst   Normkader</h5>
+               <table style="width: 100%;" class="overview OVERVIEW-REFERENCELIST"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Normkader</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Data locatie</th><td> </td></tr></tbody></table>
+            </section>
             <section id="global_class_AquoDomeintabellen_Normeringsmethode"><h5>Referentielijst   Normeringsmethode</h5>
                <table style="width: 100%;" class="overview OVERVIEW-REFERENCELIST"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Normeringsmethode</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Data locatie</th><td> </td></tr></tbody></table>
+            </section>
+            <section id="global_class_AquoDomeintabellen_NormgrensType"><h5>Referentielijst   Normgrens­Type</h5>
+               <table style="width: 100%;" class="overview OVERVIEW-REFERENCELIST"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Normgrens­Type</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Data locatie</th><td> </td></tr></tbody></table>
             </section>
          </section></section></section>
